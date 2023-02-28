@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.3/plyr.css">
     <title>Document</title>
   </head>
   <body>
@@ -28,25 +29,19 @@
 <source media="(max-width:700px)" srcset="./images/slider-sm-1.png">
 <img class="d-block img-slider" src="./images/slider-1.png" alt="Flowers">
 </picture>
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-            </div>
+            <div class="carousel-caption"><span>Ready to race</span><span>ENDURO</span></div>
           </div>
           <div class="carousel-item"><picture>
 <source media="(max-width:700px)" srcset="./images/slider-sm-2.png">
 <img class="d-block img-slider" src="./images/slider-2.png" alt="Flowers">
 </picture>
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-            </div>
+            <div class="carousel-caption"><span>Ready to race</span><span>MOTOCROSS</span></div>
           </div>
           <div class="carousel-item"><picture>
 <source media="(max-width:700px)" srcset="./images/slider-sm-3.png">
 <img class="d-block img-slider" src="./images/slider-3.png" alt="Flowers">
 </picture>
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-            </div>
+            <div class="carousel-caption"><span>Ready to race</span><span>URBAN</span></div>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#slider-ktm" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
@@ -54,6 +49,13 @@
       </div>
     </div>
     <main> 
+      <div class="video-player-box">
+        <div class="container">
+          <div class="plyr__video-embed" id="player">
+            <iframe src="https://www.youtube.com/embed/GHYV93G4xgE?origin=https://plyr.io&amp;amp;iv_load_policy=3&amp;amp;modestbranding=1&amp;amp;playsinline=1&amp;amp;showinfo=0&amp;amp;rel=0&amp;amp;enablejsapi=1" allowfullscreen allowtransparency allow="autoplay"></iframe>
+          </div>
+        </div>
+      </div>
       <div class="banner-call">
         <h2>Únete al team <span>KTM Venezuela</span></h2>
         <div class="banner-items">
@@ -67,9 +69,55 @@
             <div class="item-indicator"> </div>Eventos KTM
           </div>
         </div>
-        <div class="banner-button-box"><a class="button-call" href="" id="callToAction">Déjanos tus datos aquí  </a></div>
+        <div class="banner-button-box"><a class="button-call" href="" id="callToAction">Déjanos tus datos </a></div>
       </div>
+      <div class="banner-bike">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="banner-bike-text-box">
+                <div class="text-box-items"><span class="duke">Duke</span><span class="duke-ref">390</span><span class="duke-copy">Race Inspired</span>
+                  <div class="banner-bike-button-box"><a class="banner-bike-button" href="">VER </a></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="banner-bike-image-box"><img class="banner-bike-image" src="./images/duke390.jpg"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="buttons-comp">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-lg-4">
+              <div class="button-item-box">
+                <div class="button-comp-item"> 
+                  <p>ENDURO</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+              <div class="button-item-box">
+                <div class="button-comp-item">
+                  <p>URBANO</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+              <div class="button-item-box">
+                <div class="button-comp-item">
+                  <p>MOTOCROSS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>KTM</footer>
     </main>
   </body>
-  <script src="./js/bootstrap.min.js"> </script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="https://cdn.plyr.io/3.7.3/plyr.js"></script>
+  <script>const player = new Plyr('#player');</script>
 </html>

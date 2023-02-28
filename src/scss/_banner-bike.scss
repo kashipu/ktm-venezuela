@@ -1,0 +1,53 @@
+.banner-bike {
+    padding: 2rem 0rem;
+}
+.banner-bike-text-box {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    .duke {
+        display: flex;
+        color: #FF6600;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 4rem;
+        line-height: 50px;
+    }
+    .duke-ref {
+        display: flex;
+        color: #232428;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 10rem;
+        letter-spacing: -8px;
+        line-height: 120px;
+    }
+    .duke-copy{
+        font-family: "Blender Pro Book";
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        letter-spacing: .6rem;
+        font-weight: 900;
+    }
+}
+.banner-bike-button-box {
+    display: flex;
+    padding: 2rem 0rem;
+    a {
+        background-color: #FF6600;
+        padding: .2rem 3rem;
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+        font-size: 1.5rem;
+
+    }
+}
+
+.banner-bike-image-box {
+    .banner-bike-image {
+        width: 100%;
+    }
+}

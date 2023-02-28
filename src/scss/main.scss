@@ -1,3 +1,7 @@
+:root {
+    --plyr-color-main: #FF6600;
+}
+
 body {
     font-family: "Blender Pro";
 }
@@ -5,3 +9,7 @@ body {
 @import "navbar";
 @import "banner";
 @import "slider";
+@import "video-player";
+@import "banner-bike";
+@import "buttons-comp";
+@import "footer";

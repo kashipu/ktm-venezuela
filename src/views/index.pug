@@ -6,6 +6,7 @@ html(lang="es")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         link(rel="stylesheet", href="./css/bootstrap.css")
         link(rel="stylesheet", href="./css/main.css")
+        link(rel="stylesheet", href="https://cdn.plyr.io/3.7.3/plyr.css")
         title Document
     body
         header 
@@ -13,8 +14,14 @@ html(lang="es")
         div(class="slider")
             include components/slider.pug
         main 
+            include components/video-player.pug
             include components/banner-call.pug
+            include components/banner-bike.pug
+            include components/buttons.pug
+            include components/footer.pug
 
 
 
-    script(src="./js/bootstrap.min.js") 
+    script(src="./js/bootstrap.min.js")
+    script(src="https://cdn.plyr.io/3.7.3/plyr.js")
+    script const player = new Plyr('#player');
