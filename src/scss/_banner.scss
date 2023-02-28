@@ -1,0 +1,64 @@
+.banner-call {
+    background: url("../images/banner-call.png") no-repeat;
+    background-position:  top center;
+    background-size: cover;
+
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    h2 {
+        font-family: "Blender Pro Book";
+        color: #FFFFFF;
+        text-transform: uppercase;
+        font-size: 4.5rem;
+        span { 
+            font-family: "Blender Pro";
+            font-weight: 900;
+            color: #FF6000;
+        }
+    }
+    .banner-list {
+        width: 100%;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+    }
+    .banner-items {
+        display: flex;
+    }
+    .banner-item {
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        font-size: 1.5rem;
+        font-family: "Blender Pro Book";
+        text-transform: uppercase;
+        letter-spacing: .3rem;
+        .item-indicator {
+            width: 10px;
+            height: 10px;
+            background-color: #FF6000;
+            margin-left: 1rem;
+        }
+    }
+}
+.banner-button-box {
+    margin-top: 2rem;
+    padding: 2rem;
+    padding-bottom: 0rem;
+    .button-call {
+        display: flex;
+        background-color: #FF6000;
+        padding: 1rem 3rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: "Blender Pro";
+        font-weight: 900;
+        color: #000000;
+        font-size: 1.5rem;
+        font-style: italic;
+    }
+}
