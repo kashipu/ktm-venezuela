@@ -5,11 +5,26 @@ div(id="slider-ktm" class="carousel slide" data-bs-ride="true")
         button(type="button" data-bs-target="#slider-ktm" data-bs-slide-to="2" aria-label="Slide 3")
     div(class="carousel-inner")
         div(class="carousel-item active")
-            img(src="https://via.placeholder.com/1200x450" class="d-block w-100" alt="...")
-        div(class="carousel-item active")
-            img(src="https://via.placeholder.com/1200x450" class="d-block w-100" alt="...")
-        div(class="carousel-item active")
-            img(src="https://via.placeholder.com/1200x450" class="d-block w-100" alt="...")
+            <picture>
+                <source media="(max-width:700px)" srcset="./images/slider-sm-1.png">
+                <img class="d-block img-slider" src="./images/slider-1.png" alt="Flowers">
+            </picture>
+            div(class="carousel-caption d-none d-md-block")
+                h5 Second slide label
+        div(class="carousel-item")
+            <picture>
+                <source media="(max-width:700px)" srcset="./images/slider-sm-2.png">
+                <img class="d-block img-slider" src="./images/slider-2.png" alt="Flowers">
+            </picture>
+            div(class="carousel-caption d-none d-md-block")
+                h5 Second slide label
+        div(class="carousel-item")
+            <picture>
+                <source media="(max-width:700px)" srcset="./images/slider-sm-3.png">
+                <img class="d-block img-slider" src="./images/slider-3.png" alt="Flowers">
+            </picture>
+            div(class="carousel-caption d-none d-md-block")
+                h5 Second slide label
     button(class="carousel-control-prev" type="button" data-bs-target="#slider-ktm" data-bs-slide="prev")
         span(class="carousel-control-prev-icon" aria-hidden="true")
         span(class="visually-hidden") Previous
