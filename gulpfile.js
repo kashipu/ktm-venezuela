@@ -19,8 +19,9 @@ gulp.task('bootstrap', () => {
 
 gulp.task('styles', () => {
     return gulp.src('./src/scss/*.scss')
-    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+    .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('./public/css'))
+    //{outputStyle: 'compressed'}
 })
 
 gulp.task('webp', () => {

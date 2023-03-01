@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Blender Pro';
-    src: url('BlenderPro-Medium.eot');
-    src: local('Blender Pro Medium'), local('BlenderPro-Medium'),
-        url('BlenderPro-Medium.eot?#iefix') format('embedded-opentype'),
-        url('BlenderPro-Medium.woff2') format('woff2'),
-        url('BlenderPro-Medium.woff') format('woff'),
-        url('BlenderPro-Medium.ttf') format('truetype');
+    src: url('./fonts/BlenderPro-Medium.eot');
+    src: local('./fonts/Blender Pro Medium'), local('BlenderPro-Medium'),
+        url('./fonts/BlenderPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/BlenderPro-Medium.woff2') format('woff2'),
+        url('./fonts/BlenderPro-Medium.woff') format('woff'),
+        url('./fonts/BlenderPro-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }

@@ -1,1 +1,318 @@
-:root{--plyr-color-main: #FF6600;--font-family: "Blender Pro";--font-family-book: "Blender Pro Book"}body{font-family:"Blender Pro"}header{background-color:#000}.nav-logo img{height:100px}.banner-call{background:url("../images/banner-call.png") no-repeat;background-position:top center;background-size:cover;padding:8rem 3rem;display:flex;align-items:center;flex-direction:column}.banner-call h2{font-family:"Blender Pro Book";color:#fff;text-transform:uppercase;font-size:4.5rem}.banner-call h2 span{font-family:"Blender Pro";font-weight:900;color:#ff6000}.banner-call .banner-items{display:flex;flex-wrap:wrap}.banner-call .banner-item{color:#fff;display:flex;align-items:center;gap:1rem;font-size:1.5rem;font-family:"Blender Pro Book";text-transform:uppercase;letter-spacing:.3rem}.banner-call .banner-item .item-indicator{width:10px;height:10px;background-color:#ff6000;margin-left:1rem}.banner-button-box{margin-top:2rem;padding:2rem;padding-bottom:0rem}.banner-button-box .button-call{display:flex;background-color:#ff6000;padding:1rem 3rem;text-decoration:none;text-transform:uppercase;font-family:"Blender Pro";font-weight:900;color:#000;font-size:1.5rem;font-style:italic}.img-slider{width:100%;filter:brightness(0.7)}.carousel-caption{bottom:40%}.carousel-caption .carousel-ready{font-size:2rem;text-transform:uppercase;display:block;font-family:"Blender Pro";font-weight:900;line-height:1}.carousel-caption .carousel-type{font-size:6rem;text-transform:uppercase;display:block;font-family:"Blender Pro";font-weight:900;line-height:1;letter-spacing:.5rem}.video-player-box{padding:8rem 1rem}.video-player-box .plyr__video-embed{-webkit-box-shadow:0px 54px 21px -3px #8f8f8f;-moz-box-shadow:0px 54px 21px -3px #8f8f8f;box-shadow:0px 54px 21px -3px #8f8f8f}.banner-bike{padding:2rem 0rem}.banner-bike-text-box{height:100%;display:flex;align-items:center;justify-content:center;padding:1rem}.banner-bike-text-box .duke{display:flex;color:#f60;text-transform:uppercase;font-weight:900;font-size:4rem;line-height:50px}.banner-bike-text-box .duke-ref{display:flex;color:#232428;text-transform:uppercase;font-weight:900;font-size:10rem;letter-spacing:-8px;line-height:120px}.banner-bike-text-box .duke-copy{font-family:"Blender Pro Book";text-transform:uppercase;font-size:1.3rem;letter-spacing:.6rem;font-weight:900}.banner-bike-button-box{display:flex;padding:2rem 0rem}.banner-bike-button-box a{background-color:#f60;padding:.2rem 3rem;text-decoration:none;color:#fff;font-weight:500;font-size:1.5rem}.banner-bike-image-box .banner-bike-image{width:100%}.buttons-comp{background-color:#f60}.button-item-box{display:flex;justify-content:center;padding:3rem 0rem}.button-comp-item{background-color:#000;display:block;width:350px;height:350px;margin:1rem;display:flex;justify-content:center;align-items:center}.button-comp-item p{color:#fff;font-size:2.5rem;font-weight:900;text-shadow:0px 0px 20px #6b6b6b}footer{background-color:#000;padding:3rem}.footer-logo{display:flex;justify-content:center;padding:1rem}.footer-logo img{width:220px}.footer-menu-ktm{display:flex;justify-content:center;padding:1rem}.footer-menu-ktm ul{display:flex;flex-wrap:wrap;margin-bottom:0;padding-left:0;gap:1rem}.footer-menu-ktm ul li{list-style:none}.footer-menu-ktm ul li a{text-transform:uppercase;text-decoration:none;color:#f60;font-family:var(--font-family);font-weight:900;font-size:1.5rem}.footer-menu-ktm ul li a:hover{color:#fff}@media(max-width: 992px){.video-player-box{padding:3rem 0rem}}@media(max-width: 576px){.footer-logo{display:flex;justify-content:flex-start}.footer-menu-ktm{justify-content:flex-start}.footer-menu-ktm ul{display:flex;flex-wrap:wrap;flex-direction:column;margin-bottom:0;gap:1rem}}@media(max-width: 450px){.nav-logo img{height:70px}.carousel-caption{bottom:30%}.carousel-caption .carousel-ready{font-size:2rem;text-transform:uppercase;display:block;font-family:"Blender Pro";font-weight:900;line-height:1}.carousel-caption .carousel-type{font-size:6rem;text-transform:uppercase;display:block;font-family:"Blender Pro";font-weight:900;line-height:1;letter-spacing:.5rem}.carousel-caption .carousel-ready{font-size:1rem}.carousel-caption .carousel-type{font-size:3.2rem;letter-spacing:0rem}.banner-call{padding:4rem 2.5rem}.banner-call h2{font-size:3.5rem}.banner-call h2 span{color:#ff6000}.banner-call .banner-items{display:flex;flex-wrap:wrap}.banner-call .banner-item{font-size:1.5rem;letter-spacing:0rem}.banner-call .banner-item .item-indicator{margin-left:.2rem}.banner-button-box{margin-top:2rem;padding:0rem;padding-bottom:0rem}.banner-button-box .button-call{display:flex;background-color:#ff6000;padding:1rem 2rem;font-size:1.5rem;font-style:italic}}
+:root {
+  --plyr-color-main: #FF6600;
+  --font-family: "Blender Pro";
+  --font-family-book: "Blender Pro Book";
+}
+
+body {
+  font-family: "Blender Pro";
+}
+
+header {
+  background-color: #000000;
+}
+
+.nav-logo img {
+  height: 100px;
+}
+
+.banner-call {
+  background: url("../images/banner-call.png") no-repeat;
+  background-position: top center;
+  background-size: cover;
+  padding: 8rem 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.banner-call h2 {
+  font-family: "Blender Pro Book";
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 4.5rem;
+}
+.banner-call h2 span {
+  font-family: "Blender Pro";
+  font-weight: 900;
+  color: #FF6000;
+}
+.banner-call .banner-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.banner-call .banner-item {
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+  font-family: "Blender Pro Book";
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+.banner-call .banner-item .item-indicator {
+  width: 10px;
+  height: 10px;
+  background-color: #FF6000;
+  margin-left: 1rem;
+}
+
+.banner-button-box {
+  margin-top: 2rem;
+  padding: 2rem;
+  padding-bottom: 0rem;
+}
+.banner-button-box .button-call {
+  display: flex;
+  background-color: #FF6000;
+  padding: 1rem 3rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Blender Pro";
+  font-weight: 900;
+  color: #000000;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.img-slider {
+  width: 100%;
+  filter: brightness(0.7);
+}
+
+.carousel-caption {
+  bottom: 40%;
+}
+.carousel-caption .carousel-ready {
+  font-size: 2rem;
+  text-transform: uppercase;
+  display: block;
+  font-family: "Blender Pro";
+  font-weight: 900;
+  line-height: 1;
+}
+.carousel-caption .carousel-type {
+  font-size: 6rem;
+  text-transform: uppercase;
+  display: block;
+  font-family: "Blender Pro";
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 0.5rem;
+}
+
+.video-player-box {
+  padding: 8rem 1rem;
+}
+.video-player-box .plyr__video-embed {
+  -webkit-box-shadow: 0px 54px 21px -3px rgb(143, 143, 143);
+  -moz-box-shadow: 0px 54px 21px -3px rgb(143, 143, 143);
+  box-shadow: 0px 54px 21px -3px rgb(143, 143, 143);
+}
+
+.banner-bike {
+  padding: 2rem 0rem;
+}
+
+.banner-bike-text-box {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.banner-bike-text-box .duke {
+  display: flex;
+  color: #FF6600;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 50px;
+}
+.banner-bike-text-box .duke-ref {
+  display: flex;
+  color: #232428;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 10rem;
+  letter-spacing: -8px;
+  line-height: 120px;
+}
+.banner-bike-text-box .duke-copy {
+  font-family: "Blender Pro Book";
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  letter-spacing: 0.6rem;
+  font-weight: 900;
+}
+
+.banner-bike-button-box {
+  display: flex;
+  padding: 2rem 0rem;
+}
+.banner-bike-button-box a {
+  background-color: #FF6600;
+  padding: 0.2rem 3rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.banner-bike-image-box .banner-bike-image {
+  width: 100%;
+}
+
+.buttons-comp {
+  background-color: #FF6600;
+}
+
+.button-item-box {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0rem;
+}
+
+.button-comp-item {
+  background-color: #000000;
+  display: block;
+  width: 350px;
+  height: 350px;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-comp-item p {
+  color: #FFFFFF;
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-shadow: 0px 0px 20px #6b6b6b;
+}
+
+footer {
+  background-color: #000000;
+  padding: 3rem;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+.footer-logo img {
+  width: 220px;
+}
+
+.footer-menu-ktm {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+.footer-menu-ktm ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+  padding-left: 0;
+  gap: 1rem;
+}
+.footer-menu-ktm ul li {
+  list-style: none;
+}
+.footer-menu-ktm ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ff6600;
+  font-family: var(--font-family);
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.footer-menu-ktm ul li a:hover {
+  color: #fFFfff;
+}
+
+@media (max-width: 992px) {
+  .video-player-box {
+    padding: 3rem 0rem;
+  }
+}
+@media (max-width: 576px) {
+  .footer-logo {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .footer-menu-ktm {
+    justify-content: flex-start;
+  }
+  .footer-menu-ktm ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 0;
+    gap: 1rem;
+  }
+}
+@media (max-width: 450px) {
+  .nav-logo img {
+    height: 70px;
+  }
+  .carousel-caption {
+    bottom: 30%;
+  }
+  .carousel-caption .carousel-ready {
+    font-size: 2rem;
+    text-transform: uppercase;
+    display: block;
+    font-family: "Blender Pro";
+    font-weight: 900;
+    line-height: 1;
+  }
+  .carousel-caption .carousel-type {
+    font-size: 6rem;
+    text-transform: uppercase;
+    display: block;
+    font-family: "Blender Pro";
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: 0.5rem;
+  }
+  .carousel-caption .carousel-ready {
+    font-size: 1rem;
+  }
+  .carousel-caption .carousel-type {
+    font-size: 3.2rem;
+    letter-spacing: 0rem;
+  }
+  .banner-call {
+    padding: 4rem 2.5rem;
+  }
+  .banner-call h2 {
+    font-size: 3.5rem;
+  }
+  .banner-call h2 span {
+    color: #FF6000;
+  }
+  .banner-call .banner-items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .banner-call .banner-item {
+    font-size: 1.5rem;
+    letter-spacing: 0rem;
+  }
+  .banner-call .banner-item .item-indicator {
+    margin-left: 0.2rem;
+  }
+  .banner-button-box {
+    margin-top: 2rem;
+    padding: 0rem;
+    padding-bottom: 0rem;
+  }
+  .banner-button-box .button-call {
+    display: flex;
+    background-color: #FF6000;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-style: italic;
+  }
+}
