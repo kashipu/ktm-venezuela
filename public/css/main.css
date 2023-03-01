@@ -142,7 +142,7 @@ header {
   font-family: "Blender Pro Book";
   text-transform: uppercase;
   font-size: 1.3rem;
-  letter-spacing: 0.6rem;
+  letter-spacing: 0.5rem;
   font-weight: 900;
 }
 
@@ -172,9 +172,11 @@ header {
   justify-content: center;
   padding: 3rem 0rem;
 }
+.button-item-box a {
+  text-decoration: none;
+}
 
 .button-comp-item {
-  background-color: #000000;
   display: block;
   width: 350px;
   height: 350px;
@@ -188,6 +190,21 @@ header {
   font-size: 2.5rem;
   font-weight: 900;
   text-shadow: 0px 0px 20px #6b6b6b;
+}
+
+.item-enduro {
+  background-image: url("../images/button-urban.png");
+  background-size: cover;
+}
+
+.item-urbano {
+  background-image: url("../images/boton-bike.png");
+  background-size: cover;
+}
+
+.item-mx {
+  background-image: url("../images/button-mx.png");
+  background-size: cover;
 }
 
 footer {
@@ -214,7 +231,7 @@ footer {
   flex-wrap: wrap;
   margin-bottom: 0;
   padding-left: 0;
-  gap: 1rem;
+  gap: 4rem;
 }
 .footer-menu-ktm ul li {
   list-style: none;
@@ -231,12 +248,42 @@ footer {
   color: #fFFfff;
 }
 
+.footer-social-menu {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+.footer-social-menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+  padding-left: 0;
+  gap: 3rem;
+}
+
+.footer-social-icon {
+  width: 1.8rem;
+}
+
+.power-by {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.power-by p {
+  color: #FFFfff;
+  letter-spacing: 4px;
+}
+
 @media (max-width: 992px) {
   .video-player-box {
     padding: 3rem 0rem;
   }
 }
 @media (max-width: 576px) {
+  footer {
+    padding: 1rem;
+  }
   .footer-logo {
     display: flex;
     justify-content: flex-start;
@@ -250,6 +297,28 @@ footer {
     flex-direction: column;
     margin-bottom: 0;
     gap: 1rem;
+  }
+  .footer-social-menu {
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem;
+  }
+  .footer-social-menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    padding-left: 0;
+    gap: 1rem;
+  }
+  .power-by {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem;
+  }
+  .power-by p {
+    color: #FFFfff;
+    letter-spacing: 2px;
   }
 }
 @media (max-width: 450px) {
@@ -284,7 +353,7 @@ footer {
     letter-spacing: 0rem;
   }
   .banner-call {
-    padding: 4rem 2.5rem;
+    padding: 8rem 2.5rem;
   }
   .banner-call h2 {
     font-size: 3.5rem;
@@ -314,5 +383,10 @@ footer {
     padding: 1rem 2rem;
     font-size: 1.5rem;
     font-style: italic;
+  }
+  .button-item-box {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0rem;
   }
 }

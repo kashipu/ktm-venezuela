@@ -21,7 +21,7 @@ footer {
         flex-wrap: wrap;
         margin-bottom: 0;
         padding-left: 0;
-        gap: 1rem;
+        gap: 4rem;
         li {
             list-style: none;
             a {
@@ -36,5 +36,31 @@ footer {
                 }
             }
         }
+    }
+}
+
+.footer-social-menu {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 0;
+        padding-left: 0;
+        gap: 3rem;
+    }
+}
+
+.footer-social-icon {
+    width: 1.8rem;
+}
+.power-by {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    p {
+        color: #FFFfff;
+        letter-spacing: 4px;
     }
 }

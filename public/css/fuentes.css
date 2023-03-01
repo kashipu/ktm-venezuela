@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Blender Pro';
     src: url('../fonts/BlenderPro-Medium.eot');
-    src: local('../fonts/Blender Pro Medium'), local('BlenderPro-Medium'),
+    src: local('Blender Pro Medium'), local('BlenderPro-Medium'),
         url('../fonts/BlenderPro-Medium.eot?#iefix') format('embedded-opentype'),
         url('../fonts/BlenderPro-Medium.woff2') format('woff2'),
         url('../fonts/BlenderPro-Medium.woff') format('woff'),
@@ -13,7 +13,7 @@
 @font-face {
     font-family: 'Blender Pro';
     src: url('../fonts/BlenderPro-ThinItalic.eot');
-    src: local('../fonts/Blender Pro Thin Italic'), local('BlenderPro-ThinItalic'),
+    src: local('Blender Pro Thin Italic'), local('BlenderPro-ThinItalic'),
         url('../fonts/BlenderPro-ThinItalic.eot?#iefix') format('embedded-opentype'),
         url('../fonts/BlenderPro-ThinItalic.woff2') format('woff2'),
         url('../fonts/BlenderPro-ThinItalic.woff') format('woff'),
@@ -25,7 +25,7 @@
 @font-face {
     font-family: 'Blender Pro';
     src: url('../fonts/lenderPro-Heavy.eot');
-    src: local('../fonts/Blender Pro Heavy'), local('BlenderPro-Heavy'),
+    src: local('Blender Pro Heavy'), local('BlenderPro-Heavy'),
         url('../fonts/BlenderPro-Heavy.eot?#iefix') format('embedded-opentype'),
         url('../fonts/BlenderPro-Heavy.woff2') format('woff2'),
         url('../fonts/BlenderPro-Heavy.woff') format('woff'),
@@ -37,7 +37,7 @@
 @font-face {
     font-family: 'Blender Pro Book';
     src: url('../fonts/BlenderPro-BookItalic.eot');
-    src: local('../fonts/Blender Pro Book Italic'), local('BlenderPro-BookItalic'),
+    src: local('Blender Pro Book Italic'), local('BlenderPro-BookItalic'),
         url('../fonts/BlenderPro-BookItalic.eot?#iefix') format('embedded-opentype'),
         url('../fonts/BlenderPro-BookItalic.woff2') format('woff2'),
         url('../fonts/BlenderPro-BookItalic.woff') format('woff'),
@@ -49,7 +49,7 @@
 @font-face {
     font-family: 'Blender Pro Book';
     src: url('../fonts/BlenderPro-Book.eot');
-    src: local('../fonts/Blender Pro Book'), local('BlenderPro-Book'),
+    src: local('Blender Pro Book'), local('BlenderPro-Book'),
         url('../fonts/BlenderPro-Book.eot?#iefix') format('embedded-opentype'),
         url('../fonts/BlenderPro-Book.woff2') format('woff2'),
         url('../fonts/BlenderPro-Book.woff') format('woff'),

@@ -5,9 +5,11 @@
     display: flex;
     justify-content: center;
     padding: 3rem 0rem;
+    a {
+        text-decoration: none;
+    }
 }
 .button-comp-item {
-    background-color: #000000;
     display: block;
     width: 350px;
     height: 350px;
@@ -21,4 +23,16 @@
         font-weight: 900;
         text-shadow: 0px 0px 20px #6b6b6b;
     }
+}
+.item-enduro {
+    background-image: url("../images/button-urban.png");
+    background-size: cover;
+}
+.item-urbano {
+    background-image: url("../images/boton-bike.png");
+    background-size: cover;
+}
+.item-mx {
+    background-image: url("../images/button-mx.png");
+    background-size: cover;
 }
