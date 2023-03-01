@@ -259,6 +259,7 @@ footer {
   margin-bottom: 0;
   padding-left: 0;
   gap: 3rem;
+  list-style: none;
 }
 
 .footer-social-icon {
