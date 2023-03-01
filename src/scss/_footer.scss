@@ -13,7 +13,7 @@ footer {
 }
 
 .footer-menu-ktm {
-    display: flex;
+    display: none;
     justify-content: center;
     padding: 1rem;
     ul {
@@ -42,7 +42,7 @@ footer {
 .footer-social-menu {
     display: flex;
     justify-content: center;
-    padding: 1rem;
+    padding: 2rem;
     ul {
         display: flex;
         flex-wrap: wrap;
@@ -58,7 +58,7 @@ footer {
 }
 .power-by {
     margin-top: 2rem;
-    display: flex;
+    display: none;
     justify-content: center;
     p {
         color: #FFFfff;

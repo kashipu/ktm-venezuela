@@ -222,7 +222,7 @@ footer {
 }
 
 .footer-menu-ktm {
-  display: flex;
+  display: none;
   justify-content: center;
   padding: 1rem;
 }
@@ -251,7 +251,7 @@ footer {
 .footer-social-menu {
   display: flex;
   justify-content: center;
-  padding: 1rem;
+  padding: 2rem;
 }
 .footer-social-menu ul {
   display: flex;
@@ -268,7 +268,7 @@ footer {
 
 .power-by {
   margin-top: 2rem;
-  display: flex;
+  display: none;
   justify-content: center;
 }
 .power-by p {
