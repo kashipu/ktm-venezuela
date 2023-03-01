@@ -1,13 +1,8 @@
 .video-player-box {
-    padding: 3rem 1rem;
+    padding: 8rem 1rem;
     .plyr__video-embed {
         -webkit-box-shadow: 0px 54px 21px -3px rgba(143,143,143,1);
 -moz-box-shadow: 0px 54px 21px -3px rgba(143,143,143,1);
 box-shadow: 0px 54px 21px -3px rgba(143,143,143,1);
     }
 }
-@media (max-width: 400px) {
-    .video-player-box {
-        padding: 3rem 0rem;
-    }
-  }

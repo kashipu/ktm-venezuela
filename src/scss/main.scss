@@ -1,5 +1,7 @@
 :root {
     --plyr-color-main: #FF6600;
+    --font-family: "Blender Pro";
+    --font-family-book: "Blender Pro Book";
 }
 
 body {
@@ -13,3 +15,4 @@ body {
 @import "banner-bike";
 @import "buttons-comp";
 @import "footer";
+@import "medias-querys"

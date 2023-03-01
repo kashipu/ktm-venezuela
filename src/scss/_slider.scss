@@ -1,7 +1,25 @@
 .img-slider {
     width: 100%;
+    filter: brightness(0.7);
 }
 
 .carousel-caption {
-    bottom: 45%;
+    bottom: 40%;
+    .carousel-ready {
+        font-size: 2rem;
+        text-transform: uppercase;
+        display: block;
+        font-family: "Blender Pro";
+        font-weight: 900;
+        line-height: 1;
+    }
+    .carousel-type {
+        font-size: 6rem;
+        text-transform: uppercase;
+        display: block;
+        font-family: "Blender Pro";
+        font-weight: 900;
+        line-height: 1;
+        letter-spacing: .5rem;
+    }
 }

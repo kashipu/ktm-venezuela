@@ -1,4 +1,40 @@
 footer {
     background-color: #000000;
-    padding: 10rem;
+    padding: 3rem;
+}
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    img {
+        width: 220px;
+    }
+    
+}
+
+.footer-menu-ktm {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 0;
+        padding-left: 0;
+        gap: 1rem;
+        li {
+            list-style: none;
+            a {
+                text-transform: uppercase;
+                text-decoration: none;
+                color: #ff6600;
+                font-family: var(--font-family);
+                font-weight: 900;
+                font-size: 1.5rem;
+                &:hover {
+                    color: #fFFfff;
+                }
+            }
+        }
+    }
 }
