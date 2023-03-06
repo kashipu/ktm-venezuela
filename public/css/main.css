@@ -313,7 +313,7 @@ footer {
   }
   .power-by {
     margin-top: 2rem;
-    display: flex;
+    display: none;
     justify-content: flex-start;
     padding: 1rem;
   }
