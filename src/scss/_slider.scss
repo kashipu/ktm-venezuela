@@ -4,15 +4,7 @@
 }
 
 .carousel-caption {
-    bottom: 40%;
-    .carousel-ready {
-        font-size: 2rem;
-        text-transform: uppercase;
-        display: block;
-        font-family: "Blender Pro";
-        font-weight: 900;
-        line-height: 1;
-    }
+    bottom: 25%;
     .carousel-type {
         font-size: 6rem;
         text-transform: uppercase;
@@ -20,6 +12,39 @@
         font-family: "Blender Pro";
         font-weight: 900;
         line-height: 1;
-        letter-spacing: .5rem;
+    }
+}
+.orange-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    .carousel-ready {
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        display: block;
+        font-family: "Blender Pro";
+        font-weight: 900;
+        line-height: 1;
+        text-align: left;
+        padding-right: 3rem;
+    }
+    .orange-line {
+        display: flex;
+        align-items: center;
+    }
+    .carousel-orange {
+        background-color: var(--orange-color);
+        display: flex;
+        justify-content: center;
+        height: 1.5rem;
+        width: 7rem;
+        
+    }
+    .orange-text {
+        font-size: 2.5rem;
+        font-weight: 900;
+        line-height: 1.8rem;
+        padding-left: .5rem;
     }
 }

@@ -1,7 +1,5 @@
 .banner-call {
-    background: url("../images/banner-call.png") no-repeat;
-    background-position:  top center;
-    background-size: cover;
+    background-color: var(--black-color);
     padding: 8rem 3rem;
     display: flex;
     align-items: center;
@@ -44,13 +42,13 @@
     padding-bottom: 0rem;
     .button-call {
         display: flex;
-        background-color: #FF6000;
+        background-color: var(--orange-color);
         padding: 1rem 3rem;
         text-decoration: none;
         text-transform: uppercase;
         font-family: "Blender Pro";
         font-weight: 900;
-        color: #000000;
+        color: var(--white-color);
         font-size: 1.5rem;
         font-style: italic;
     }

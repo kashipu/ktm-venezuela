@@ -2,6 +2,9 @@
   --plyr-color-main: #FF6600;
   --font-family: "Blender Pro";
   --font-family-book: "Blender Pro Book";
+  --white-color: #FFFFFF;
+  --black-color: #000000;
+  --orange-color: #FF6600;
 }
 
 body {
@@ -17,9 +20,7 @@ header {
 }
 
 .banner-call {
-  background: url("../images/banner-call.png") no-repeat;
-  background-position: top center;
-  background-size: cover;
+  background-color: var(--black-color);
   padding: 8rem 3rem;
   display: flex;
   align-items: center;
@@ -64,13 +65,13 @@ header {
 }
 .banner-button-box .button-call {
   display: flex;
-  background-color: #FF6000;
+  background-color: var(--orange-color);
   padding: 1rem 3rem;
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Blender Pro";
   font-weight: 900;
-  color: #000000;
+  color: var(--white-color);
   font-size: 1.5rem;
   font-style: italic;
 }
@@ -81,15 +82,7 @@ header {
 }
 
 .carousel-caption {
-  bottom: 40%;
-}
-.carousel-caption .carousel-ready {
-  font-size: 2rem;
-  text-transform: uppercase;
-  display: block;
-  font-family: "Blender Pro";
-  font-weight: 900;
-  line-height: 1;
+  bottom: 25%;
 }
 .carousel-caption .carousel-type {
   font-size: 6rem;
@@ -98,7 +91,40 @@ header {
   font-family: "Blender Pro";
   font-weight: 900;
   line-height: 1;
-  letter-spacing: 0.5rem;
+}
+
+.orange-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.orange-box .carousel-ready {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  display: block;
+  font-family: "Blender Pro";
+  font-weight: 900;
+  line-height: 1;
+  text-align: left;
+  padding-right: 3rem;
+}
+.orange-box .orange-line {
+  display: flex;
+  align-items: center;
+}
+.orange-box .carousel-orange {
+  background-color: var(--orange-color);
+  display: flex;
+  justify-content: center;
+  height: 1.5rem;
+  width: 7rem;
+}
+.orange-box .orange-text {
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1.8rem;
+  padding-left: 0.5rem;
 }
 
 .video-player-box {
@@ -125,9 +151,9 @@ header {
   display: flex;
   color: #FF6600;
   text-transform: uppercase;
-  font-weight: 900;
-  font-size: 4rem;
-  line-height: 50px;
+  font-weight: 600;
+  font-size: 5rem;
+  line-height: 55px;
 }
 .banner-bike-text-box .duke-ref {
   display: flex;
@@ -135,15 +161,17 @@ header {
   text-transform: uppercase;
   font-weight: 900;
   font-size: 10rem;
-  letter-spacing: -8px;
+  letter-spacing: 5px;
   line-height: 120px;
 }
 .banner-bike-text-box .duke-copy {
   font-family: "Blender Pro Book";
+  display: flex;
+  color: var(--black-color);
   text-transform: uppercase;
-  font-size: 1.3rem;
-  letter-spacing: 0.5rem;
-  font-weight: 900;
+  font-weight: 600;
+  font-size: 4.5rem;
+  line-height: 60px;
 }
 
 .banner-bike-button-box {
@@ -164,7 +192,7 @@ header {
 }
 
 .buttons-comp {
-  background-color: #FF6600;
+  background-color: var(--black-color);
 }
 
 .button-item-box {
@@ -187,28 +215,36 @@ header {
 }
 .button-comp-item p {
   color: #FFFFFF;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-weight: 900;
   text-shadow: 0px 0px 20px #6b6b6b;
+  display: flex;
+  align-items: center;
+}
+.button-comp-item p .orange-block {
+  background-color: var(--orange-color);
+  width: 80px;
+  height: 20px;
+  margin: 0rem 0.5rem;
 }
 
 .item-enduro {
   background-image: url("../images/button-1.png");
-  background-size: cover;
+  background-size: contain;
 }
 
 .item-urbano {
   background-image: url("../images/button-2.png");
-  background-size: cover;
+  background-size: contain;
 }
 
 .item-mx {
   background-image: url("../images/button-3.png");
-  background-size: cover;
+  background-size: contain;
 }
 
 footer {
-  background-color: #000000;
+  background-color: var(--white-color);
   padding: 3rem;
 }
 
@@ -276,9 +312,23 @@ footer {
   letter-spacing: 4px;
 }
 
-@media (max-width: 992px) {
+@media (min-width: 992px) {
   .video-player-box {
     padding: 3rem 0rem;
+  }
+  .carousel-caption {
+    bottom: 30%;
+  }
+  .carousel-caption .carousel-type {
+    font-size: 8rem;
+  }
+}
+@media (max-width: 768px) {
+  .carousel-caption {
+    bottom: 35%;
+  }
+  .carousel-caption .carousel-type {
+    font-size: 12vw;
   }
 }
 @media (max-width: 576px) {
@@ -311,16 +361,6 @@ footer {
     padding-left: 0;
     gap: 1rem;
   }
-  .power-by {
-    margin-top: 2rem;
-    display: none;
-    justify-content: flex-start;
-    padding: 1rem;
-  }
-  .power-by p {
-    color: #FFFfff;
-    letter-spacing: 2px;
-  }
 }
 @media (max-width: 450px) {
   .nav-logo img {
@@ -328,30 +368,6 @@ footer {
   }
   .carousel-caption {
     bottom: 30%;
-  }
-  .carousel-caption .carousel-ready {
-    font-size: 2rem;
-    text-transform: uppercase;
-    display: block;
-    font-family: "Blender Pro";
-    font-weight: 900;
-    line-height: 1;
-  }
-  .carousel-caption .carousel-type {
-    font-size: 6rem;
-    text-transform: uppercase;
-    display: block;
-    font-family: "Blender Pro";
-    font-weight: 900;
-    line-height: 1;
-    letter-spacing: 0.5rem;
-  }
-  .carousel-caption .carousel-ready {
-    font-size: 1rem;
-  }
-  .carousel-caption .carousel-type {
-    font-size: 3.2rem;
-    letter-spacing: 0rem;
   }
   .banner-call {
     padding: 8rem 2.5rem;

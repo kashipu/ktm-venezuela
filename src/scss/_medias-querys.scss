@@ -1,13 +1,29 @@
 // Large
-@media (max-width: 992px) {
+@media (min-width: 992px) {
     // Video player
     .video-player-box {
         padding: 3rem 0rem;
     }
+    // Carousell
+    .carousel-caption {
+        bottom: 30%;
+        // Banner
+        .carousel-type {
+            font-size: 8rem;
+        }
+       }
 }
 
 // Medium
 @media (max-width: 768px) {
+     // Carousell
+     .carousel-caption {
+        bottom: 35%;
+        // Banner
+        .carousel-type {
+            font-size: 12vw;
+        }
+       }
 }
 
 // Small
@@ -41,16 +57,6 @@
         gap: 1rem;
     }
 }
-.power-by {
-    margin-top: 2rem;
-    display: none;
-    justify-content: flex-start;
-    padding: 1rem;
-    p {
-        color: #FFFfff;
-        letter-spacing: 2px;
-    }
-}
 }
 
 // Extra small
@@ -64,32 +70,11 @@
     // Banner
     .carousel-caption {
     bottom: 30%;
-    .carousel-ready {
-        font-size: 2rem;
-        text-transform: uppercase;
-        display: block;
-        font-family: "Blender Pro";
-        font-weight: 900;
-        line-height: 1;
-    }
     .carousel-type {
-        font-size: 6rem;
-        text-transform: uppercase;
-        display: block;
-        font-family: "Blender Pro";
-        font-weight: 900;
-        line-height: 1;
-        letter-spacing: .5rem;
-    }
-    // Banner
-    .carousel-ready {
-        font-size: 1rem;
-    }
-    .carousel-type {
-        font-size: 3.2rem;
-        letter-spacing: 0rem;
+        
     }
     }
+    
     // Banner
     .banner-call {
         padding: 8rem 2.5rem;
